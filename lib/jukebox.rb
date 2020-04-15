@@ -35,6 +35,10 @@ def play(array)
   elsif array.include(response)
     song = array.find (|song| song == response)
     puts "Playing #{song}"
+  else
+    puts "Invalid input, please try again"
+
+  end
 end
 
 def exit_jukebox
