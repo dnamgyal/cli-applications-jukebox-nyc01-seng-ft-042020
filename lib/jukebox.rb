@@ -27,7 +27,11 @@ end
 
 def play(array)
   puts "Please enter a song name or number:"
-  response = gets.strip
+  response = gets.chomp
+
+  if response.to_i >= 1 and response.to_i <= array.length
+    index = response.to_i - 1
+    puts "Playing #{array[index]}"
 end
 
 def exit_jukebox
