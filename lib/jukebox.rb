@@ -21,7 +21,7 @@ end
 
 
 def list(array)
-  array.each.with_index(1) {|index, item| puts "#{index}. #{item}"}
+  array.each.with_index(1) {|item, index| puts "#{index}. #{item}"}
 end
 
 
