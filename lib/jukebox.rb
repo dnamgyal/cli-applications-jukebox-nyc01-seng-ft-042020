@@ -34,6 +34,7 @@ def play(array)
     puts "Playing #{array[index]}"
   elsif array.include(response)
     song = array.find (|song| song == response)
+    puts "Playing #{song}"
 end
 
 def exit_jukebox
