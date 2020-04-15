@@ -32,6 +32,8 @@ def play(array)
   if response.to_i >= 1 and response.to_i <= array.length
     index = response.to_i - 1
     puts "Playing #{array[index]}"
+  elsif array.include(response)
+    song = array.find (|song| song == response)
 end
 
 def exit_jukebox
