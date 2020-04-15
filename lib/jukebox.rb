@@ -56,7 +56,6 @@ def run(array)
     list(array)
   elsif input == "exit"
     exit_jukebox
-    break
   else
     puts "Invalid Entry"
   end
