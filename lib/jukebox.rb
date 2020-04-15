@@ -33,7 +33,7 @@ def play(array)
     index = response.to_i - 1
     puts "Playing #{array[index]}"
   elsif array.include(response)
-    song = array.find (|song| song == response)
+    song = array.find {|song| song == response}
     puts "Playing #{song}"
   else
     puts "Invalid input, please try again"
