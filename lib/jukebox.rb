@@ -46,7 +46,7 @@ end
 
 
 def run(array)
-  puts "Please enter a command"
+  puts "Please enter a command:"
   input = gets.chomp
   if input == "help"
     help
