@@ -22,7 +22,6 @@ end
 
 def list(array)
   array.each.with_index(1) {|item, index| puts "#{index}. #{item}"}
-  array
 end
 
 
